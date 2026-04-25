@@ -1,29 +1,30 @@
 <idea-plugin>
-    <id>com.shuzijun.markdown-editor</id>
+    <id>com.hnishide.markdown-editor</id>
     <name>Markdown Editor</name>
     <version>0</version>
-    <vendor email="shuzijun0109@gmail.com">shuzijun</vendor>
+    <vendor email="hisayanishide@gmail.com" url="https://github.com/hnishide">Hisaya Nishide</vendor>
 
     <description>
         <![CDATA[
             <div>
-                <p>IntelliJ Platform A full-featured WYSIWYG editor for markdown,
-                More tutorial please visit: <a href="https://github.com/shuzijun/markdown-editor">here</a></p>
-                <p>IntelliJ平台一个功能齐全的所见即所得Markdown编辑器
-                更多教程请访问: <a href="https://github.com/shuzijun/markdown-editor">帮助</a></p>
+                <p>日本語フォント表示に対応した Markdown プレビュー / WYSIWYG エディタプラグイン。
+                WYSIWYG・インスタントレンダリング・分割ビューの3モードをサポート。</p>
+                <p>詳細は <a href="https://github.com/hnishide/markdown-editor">こちら</a></p>
             </div>
             <br>
             <div>
-                <h3>Features</h3>
+                <h3>機能</h3>
                 <ul>
-                    <li>Support three editing modes: WYSIWYG, Instant Rendering and Split View</li>
-                    <li>Support outline, mathematical formulas, mind maps, charts, flowcharts, Gantt charts, timing charts,  heading anchors, code highlighting, graphviz rendering.</li>
-                    <li>Support picture paste, file upload or drag and insert quickly.</li>
-                    <li>Support using IDE to open files quickly</li>
-                    <li>More function reference <a href="https://github.com/Vanessa219/vditor/blob/master/README_en_US.md#--features">vditor features</a></li>
+                    <li>3つの編集モード: WYSIWYG / インスタントレンダリング / 分割ビュー</li>
+                    <li>アウトライン、数式、マインドマップ、チャート、フローチャート、ガントチャート、タイミングチャート、見出しアンカー、コードハイライト、graphviz レンダリング</li>
+                    <li>画像のペースト、ファイルアップロード、ドラッグ&ドロップでの挿入</li>
+                    <li>IDE からのファイル高速オープン</li>
+                    <li>その他は <a href="https://github.com/Vanessa219/vditor/blob/master/README_en_US.md#--features">vditor features</a> を参照</li>
                 </ul>
                 <h3>Demo</h3>
                 <p><img src="https://raw.githubusercontent.com/shuzijun/markdown-editor/main/assets/demo.gif" alt="demo.gif" /></p>
+                <hr/>
+                <p><small>Forked from <a href="https://github.com/shuzijun/markdown-editor">shuzijun/markdown-editor</a> with Japanese font fixes for personal use.</small></p>
             </div>
          ]]>
     </description>

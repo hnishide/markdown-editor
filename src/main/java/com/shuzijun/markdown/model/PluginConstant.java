@@ -9,7 +9,7 @@ import java.io.File;
  */
 public class PluginConstant {
 
-    public static final String PLUGIN_ID = "com.shuzijun.markdown-editor";
+    public static final String PLUGIN_ID = "com.hnishide.markdown-editor";
 
     public static final String NOTIFICATION_GROUP = "Markdown editor";
     public static final String APPLICATION_CONFIGURABLE_DISPLAY_NAME = "Markdown editor";
