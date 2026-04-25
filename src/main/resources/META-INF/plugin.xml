@@ -39,9 +39,6 @@
                   implementationClass="com.shuzijun.markdown.editor.MarkdownFileType" fieldName="INSTANCE"/>-->
         <fileEditorProvider implementation="com.shuzijun.markdown.editor.MarkdownPreviewFileEditorProvider"/>
         <httpRequestHandler implementation="com.shuzijun.markdown.controller.PreviewStaticServer"/>
-        <applicationConfigurable groupId="tools" displayName="Markdown Editor" id="Markdown Editor"
-                                 instance="com.shuzijun.markdown.setting.SettingConfigurable"/>
-        <errorHandler implementation="com.shuzijun.markdown.listener.ErrorReportHandler"/>
         <postStartupActivity implementation="com.shuzijun.markdown.listener.SupportCheck"/>
         <applicationService serviceInterface="com.shuzijun.markdown.controller.FileApplicationService"
                             serviceImplementation="com.shuzijun.markdown.controller.FileApplicationService" />

@@ -141,3 +141,6 @@ hs_err_pid*
 #
 **/.DS_Store
 src/main/resources/vditor/dist/images/emoji/
+
+# Claude Code local settings
+.claude/
