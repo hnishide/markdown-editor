@@ -284,13 +284,17 @@ public class MarkdownPreviewFileEditor extends UserDataHolderBase implements Fil
             }
 
             Color text = editorColorsScheme.getDefaultForeground();
-            String fontFamily = "font-family:\"" + editorColorsScheme.getEditorFontName() + "\",\"Helvetica Neue\",\"Luxi Sans\",\"DejaVu Sans\"," +
-                    "\"Hiragino Sans GB\",\"Microsoft Yahei\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Noto Color Emoji\",\"Segoe UI Symbol\"," +
-                    "\"Android Emoji\",\"EmojiSymbols\";";
+            String fontFamily = "font-family:\"" + editorColorsScheme.getEditorFontName() + "\",\"Helvetica Neue\",\"Hiragino Sans\"," +
+                    "\"Hiragino Kaku Gothic ProN\",\"Yu Gothic\",\"Meiryo\",\"Luxi Sans\",\"DejaVu Sans\",sans-serif," +
+                    "\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Noto Color Emoji\",\"Segoe UI Symbol\",\"Android Emoji\",\"EmojiSymbols\";";
             StringBuilder sb = new StringBuilder(isTag ? "<style id=\"ideaStyle\">" : "");
             sb.append(UIUtil.isUnderDarcula() ? ".vditor--dark" : ".vditor").append("{--panel-background-color:").append(toHexColor(defaultBackground))
                     .append(";--textarea-background-color:").append(toHexColor(defaultBackground)).append(";");
             sb.append("--toolbar-background-color:").append(toHexColor(JBColor.background())).append(";");
+            sb.append(fontFamily);
+            sb.append("}");
+            sb.append(".vditor-sv{");
+            sb.append(fontFamily);
             sb.append("}");
             sb.append("::-webkit-scrollbar-track {background-color:").append(toHexColor(defaultBackground)).append(";}");
             sb.append("::-webkit-scrollbar-thumb {background-color:").append(toHexColor(scrollbarThumbColor)).append(";}");
