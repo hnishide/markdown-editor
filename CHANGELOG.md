@@ -2,6 +2,25 @@
 
 # Markdown Editor Changelog
 
+## 2.0.5-jp.1
+
+hnishide フォークの初回リリース。日本語環境向けの修正と、テレメトリ／設定UIの削除を含む。
+
+### Added
+
+- 日本語ドキュメント (`README_JA.md`, `assets/CustomStyle_JA.md`)
+
+### Changed
+
+- プレビューのフォントチェーンを日本語フォント優先 (Hiragino Sans / Hiragino Kaku Gothic ProN / Yu Gothic / Meiryo) に変更し、中国語フォント (Hiragino Sans GB / Microsoft Yahei) を除外
+- `.vditor` / `.vditor-sv` にも同フォントチェーンを適用
+- プラグインメタデータ (id / vendor / 説明 / homepage) を hnishide フォーク向けに更新
+
+### Removed
+
+- Sentry によるエラーレポート機能 (`ErrorReportHandler`, `SentryUtils`, `io.sentry:sentry` 依存)
+- プラグイン設定UI (`SettingConfigurable`, `SettingUI`)。jsdelivr.com への通信ルートも併せて排除
+
 ## 2.0.5
 
 ### Added
