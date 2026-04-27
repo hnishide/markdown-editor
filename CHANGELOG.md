@@ -2,6 +2,12 @@
 
 # Markdown Editor Changelog
 
+## 2.0.5-jp.3
+
+### Changed
+
+- info（ⓘ）ポップアップ内の Source Code リンクを本フォーク (`hnishide/markdown-editor`) に変更
+
 ## 2.0.5-jp.2
 
 ### Removed
