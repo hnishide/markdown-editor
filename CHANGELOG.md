@@ -2,6 +2,16 @@
 
 # Markdown Editor Changelog
 
+## 2.0.5-jp.4
+
+### Fixed
+
+- HTML エクスポート時のテーマ／アセット URL を本フォーク (`hnishide/markdown-editor`) の jsdelivr CDN に変更。タグの `v` プレフィックスにも合わせ、エクスポートした HTML が単独で表示できるよう修正
+
+### Removed
+
+- 未使用となっていた `JS_DELIVR_ENDPOINTS` 定数を削除
+
 ## 2.0.5-jp.3
 
 ### Changed
